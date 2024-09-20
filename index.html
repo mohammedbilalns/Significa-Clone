@@ -17,7 +17,7 @@
 
 
     <!-- navbar container -->
-    <div class="container text-center inset-md  ">
+    <div class="container text-center inset-md  fixed-top top-0 nav-container  " id="nav-container">
         <div class=" d-flex items-center justify-content-between py-4 container mx-auto  ">
             <!-- navbar left -->
             <div class=" d-flex items-center gap-8 ">
@@ -46,6 +46,9 @@
         </div>
     </div>
 
+
+
+
     <!-- Title Container  -->
 
     <div class="container mx-auto pt-5">
@@ -66,7 +69,7 @@
 
         <!-- cards section  -->
         <section class="mt-10 mb-8 row pt-5 ">
-            <div class="col-xl-3 col-md-6 d-flex justify-content-between  ">
+            <div class="col-xl-3 col-md-6 d-flex justify-content-between  project-card rounded-4  pt-3">
                 <div class="img-container px-2">
                     <img class="rounded w-96 " src="./static/images/card1.webp" alt="">
                 </div>
@@ -78,7 +81,7 @@
 
             </div>
 
-            <div class="col-xl-3 col-md-6 d-flex justify-content-left ">
+            <div class="col-xl-3 col-md-6 d-flex justify-content-left project-card rounded-4 pt-3">
                 <div class="img-container px-2">
                     <img class="rounded w-96 " src="./static/images/card2.webp" alt="">
                 </div>
@@ -90,7 +93,7 @@
 
             </div>
 
-            <div class="col-xl-3 col-md-6 d-flex justify-content-left">
+            <div class="col-xl-3 col-md-6 d-flex justify-content-left project-card rounded-4 pt-3">
                 <div class="img-container px-2">
                     <img class="rounded w-96 " src="./static/images/card3.webp" alt="">
                 </div>
@@ -102,7 +105,7 @@
 
             </div>
 
-            <div class="col-xl-3 col-md-6 d-flex justify-content-left align-items-center ">
+            <div class="col-xl-3 col-md-6 d-flex justify-content-left align-items-center  project-card rounded-4 pt-3">
                 <div class="img-container px-2">
                     <img class="rounded w-96 " src="./static/images/card4.webp" alt="">
                 </div>
@@ -119,9 +122,21 @@
         </section>
 
         <!-- video section  -->
-        <section>
+        <section >
+            <div class="container pt-4">
+                <video src="./static/videos/card-video.mp4" class="ratio ratio-16x9 rounded-4"  poster="https://a.storyblok.com/f/198185/2688x1514/19ebaabf98/new-showreel-cover.jpg/m/0x0/" ></video>
+            </div>
+
+
+            
 
         </section>
+
+    </div>
+
+
+    <div class="container">
+
 
     </div>
 
@@ -131,6 +146,15 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+
+        <script>
+
+            window.onscroll = function(){
+                const scrollY = window.scrollY;
+                document.getElementById('nav-container').style.display = scrollY >= 280 ? 'none' : 'block';
+                // console.log(scrollY);
+            }
+        </script>
 </body>
 
 </html>

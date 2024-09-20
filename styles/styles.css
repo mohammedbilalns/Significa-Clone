@@ -1,6 +1,8 @@
-body{
+body,.nav-container{
     background-color: #171717;
     font-family: sans-serif;
+
+    
 }
 .sidebar-button{
     background-color: #161616;
@@ -29,4 +31,9 @@ body{
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
+}
+
+.project-card:hover{
+    background-color: #242424;
+
 }
