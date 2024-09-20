@@ -26,6 +26,9 @@ body,.nav-container{
 .w-96{
     width: 96px;
 }
+.w-56{
+    width: 56px;
+}
 .line-clamp{
     display: -webkit-box;
     -webkit-line-clamp: 2;
@@ -36,4 +39,14 @@ body,.nav-container{
 .project-card:hover{
     background-color: #242424;
 
+}
+
+.container-fluid:hover{
+
+    background-color: #242424;
+}
+
+.test{
+
+    padding-bottom: 1000px;
 }
