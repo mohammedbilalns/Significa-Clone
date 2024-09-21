@@ -41,7 +41,7 @@ body,.nav-container{
 
 }
 
-.container-fluid:hover{
+.product-section:hover{
 
     background-color: #242424;
 }
@@ -50,3 +50,8 @@ body,.nav-container{
 
     padding-bottom: 1000px;
 }
+
+.border-gray{
+    border-color: #2E2E2E !important;
+}
+
