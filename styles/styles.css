@@ -19,6 +19,15 @@ body,.nav-container{
     }
 }
 
+@media only screen and (max-width: 1199px){
+
+    .service-images{
+        border: none !important; 
+    }
+}
+
+
+
 .text-gray{
     color:#A0A0A2;
 }
@@ -53,5 +62,8 @@ body,.nav-container{
 
 .border-gray{
     border-color: #2E2E2E !important;
+}
+.w-167{
+    width: 167px;
 }
 
