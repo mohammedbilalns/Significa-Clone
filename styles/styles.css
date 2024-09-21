@@ -38,6 +38,11 @@ body,.nav-container{
 .w-56{
     width: 56px;
 }
+
+.w-27{
+    width: 27px;
+}
+
 .line-clamp{
     display: -webkit-box;
     -webkit-line-clamp: 2;
@@ -74,5 +79,13 @@ body,.nav-container{
 .hover-gray:hover{
     color: #A0A0A2 !important;
     cursor: pointer;
+}
+
+.cursor-pointer{
+    cursor: pointer; 
+}
+
+.fs-7 {
+    font-size: 0.8rem !important;
 }
 
