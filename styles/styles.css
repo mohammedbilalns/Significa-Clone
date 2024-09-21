@@ -67,3 +67,12 @@ body,.nav-container{
     width: 167px;
 }
 
+.text-brown{
+    color: #312D1C !important;
+}
+
+.hover-gray:hover{
+    color: #A0A0A2 !important;
+    cursor: pointer;
+}
+
