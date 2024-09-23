@@ -71,7 +71,17 @@ body,.nav-container{
 .w-167{
     width: 167px;
 }
-
+.w-312{
+    width: 370px;
+    
+}
+.navbar{
+    z-index: 100;
+}
+.sidebar{
+    z-index: 200;
+    background-color: #171717;
+}
 .text-brown{
     color: #312D1C !important;
 }
