@@ -12,5 +12,12 @@ function sidebarToggle(){
     
     sidebar.classList.toggle("d-none")
     
+}
+
+
+
+function videoToggle(){
+    let titleVideo = document.getElementById("title-video")
+    console.log()
 
 }
